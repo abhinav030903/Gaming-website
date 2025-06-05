@@ -5,7 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gaming Website</title>
-    <link rel="stylesheet" href="style.css" </head>
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
+    
+    <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
 
 <body>
     <div class="container">
@@ -25,7 +33,7 @@
             </div>
         </header>
 
-        <section class="hero-section">
+        <section class="hero-section autoBlur">
             <div class="hero-vid">
                 <video loop autoplay muted playsinline class="hero-video">
                     <source src="hero-1.mp4" type="video/mp4">
@@ -44,11 +52,14 @@
             </div>
         </section>
 
-        <section class="about-section">
+        <section id= "about" class="about-section">
             <p>Welcome to Zentry</p>
-            <h1>DISCOVER THE WORLD'S LARGEST SHARED ADVENTURE</h1>
+            <div class="autoBlur">
+                <h1>DISCOVER THE WORLD'S LARGEST SHARED ADVENTURE</h1>
+            </div>
+            
 
-            <div class="image-box">
+            <div class="image-box autoTakeFull">
                 <img src="about.webp">
             </div>
             <h4>Game of Games begins-your-life, now an epic MMORPG</h4>
@@ -96,6 +107,31 @@
                 </div>
             </div>
         </seaction>
+
+        <section class="contact-section">
+            <p>Join Zentry</p>
+            <div class="autoBlur">
+                <h1>LET'S BUILD THE NEW ERA OF GAMING TOGETHER</h1>
+            </div>
+            
+            <button>CONTACT US</button>
+            <img class="img1" src="swordman.webp">
+            <img class="img2" src="contact-1.webp">
+            <img class="img3" src="contact-2.webp">
+        </section>
+
+        <section class="footer">
+            <p>&#169Abhinav 2025. All rights reserved</p>
+            <ul>
+                <li><a href="#"><i class="fa fa-youtube-play" style="font-size:20px;color:white"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter" style="font-size:20px;color:white"></i></a></li>
+                <li><a href="#"><i class="fa fa-github" style="font-size:20px;color:white"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin-square" style="font-size:20px;color:white"></i></a></li>
+            </ul>
+            <p>Privacy Policy</p>
+
+            
+        </section>
     </div>
     <script src="app.js">
     </script>
